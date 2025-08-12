@@ -111,7 +111,7 @@ async def confirm_done(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Botni ishga tushirish
 def main():
-    app = Application.builder().token("8346687594:AAFcK_zjRXvpsWGA40HrnVVQEpF9XJK056c").build()
+    app = Application.builder().token("8471128486:AAF4tcFIukcPzptpMwJOJhxB7qqLjTXkWoI").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
