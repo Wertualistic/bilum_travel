@@ -13,8 +13,8 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",           # o'zgartiring agar boshqa user bo'lsa
-        password="1111",       # parolingiz
-        database="telegram_bot"
+        password="",       # parolingiz
+        database="bilum_travel"
     )
 
 # Foydalanuvchini saqlash (agar mavjud bo'lmasa) va ID olish
